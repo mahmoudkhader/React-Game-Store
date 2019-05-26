@@ -1,3 +1,42 @@
+/* Fonts from https://www.onlinewebfonts.com/download/4225be2eb6b5014a28751f1fe4bcbf01
+ */
+@font-face {
+  font-family: "Brutal Bold";
+  src: url("./fonts/brutal-bold/8083df1227dfa77541e97424193d3371.eot"); /* IE9*/
+  src: url("./fonts/brutal-bold/8083df1227dfa77541e97424193d3371.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("./fonts/brutal-bold/8083df1227dfa77541e97424193d3371.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("./fonts/brutal-bold/8083df1227dfa77541e97424193d3371.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./fonts/brutal-bold/8083df1227dfa77541e97424193d3371.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./fonts/brutal-bold/8083df1227dfa77541e97424193d3371.svg#Brutal Type W00 Bold")
+      format("svg"); /* iOS 4.1- */
+}
+@font-face {
+  font-family: "Brutal Regular";
+  src: url("./fonts/brutal-regular/4225be2eb6b5014a28751f1fe4bcbf01.eot"); /* IE9*/
+  src: url("./fonts/brutal-regular/4225be2eb6b5014a28751f1fe4bcbf01.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("./fonts/brutal-regular/4225be2eb6b5014a28751f1fe4bcbf01.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("./fonts/brutal-regular/4225be2eb6b5014a28751f1fe4bcbf01.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./fonts/brutal-regular/4225be2eb6b5014a28751f1fe4bcbf01.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./fonts/brutal-regular/4225be2eb6b5014a28751f1fe4bcbf01.svg#Brutal Type W00 Regular")
+      format("svg"); /* iOS 4.1- */
+}
+
 :root {
   --mainBlue: #2a2a72;
   --lightBlue: #009ffd;
@@ -7,13 +46,14 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Brutal Regular", sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
 .text-title {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Brutal Bold", sans-serif !important;
+  font-weight: 400;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }

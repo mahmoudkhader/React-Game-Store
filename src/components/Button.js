@@ -4,7 +4,7 @@ export const ButtonContainer = styled.button`
   text-transform: capitalize;
   font-size: 1.4rem;
   background: transparent;
-  border: 0.05rem solid var(--lightBlue);
+  border: none;
   // Pass in the cart props from details to change the button color to yellow
   border-color: ${prop =>
     prop.cart ? "var(--mainYellow)" : "var(--lightBlue)"};
